@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>
+                Scroll down to see the animation
+            </h1>
+        </div>
+
+        <div class="sticky-cards">
+            <div class="card card-front">
+                <h3>Digital Architect</h3>
+                <span>Edition 2026</span>
+                <p>
+                    Crafting high-end digital experiences where minimalist structure meets fluid motion.
+                </p>
+                <div class="icon"><ion-icon name="caret-down"></ion-icon></div>
+            </div>
+
+            <!-- .card.card-back#card-$*4 -->
+            <div class="card card-back" id="card-1">
+                <h3>The Vision</h3>
+                <div class="icon">
+                    <ion-icon name="diamond-outline"></ion-icon>
+                </div>
+                <p>Editorial layouts designed to prioritize clarity and high-end aesthetics.</p>
+            </div>
+            <div class="card card-back" id="card-2">
+                <h3>Rhythm</h3>
+                <div class="icon">
+                    <ion-icon name="pulse-outline"></ion-icon>
+                </div>
+                <p>Movement should never be a distraction; it should be the heartbeat of the user journey.</p>
+            </div>
+            <div class="card card-back" id="card-3">
+                <h3>Logic</h3>
+                <div class="icon">
+                    <ion-icon name="layers-outline"></ion-icon>
+                </div>
+                <p>Beautiful design is only as good as the performance that sustains it.</p>
+            </div>
+            <div class="card card-back" id="card-4">
+                <h3>Future</h3>
+                <div class="icon">
+                    <ion-icon name="planet-outline"></ion-icon>
+                </div>
+                <p>Building digital monuments that remain timeless in a transient industry.</p>
+
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <h3>
+            Siteandshine is where editorial precision meets fluid motion. I replace digital noise with purposeful white
+            space and high-performance code, crafting "Quiet Luxury"for the built world. Every interaction is
+            choreographed; every pixel is intentional.
+        </h3>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.18/dist/lenis.min.js"></script>
+    <script src="index.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
